@@ -37,6 +37,4 @@ securityDefinitions:
     in: header
 security:
 - apikey: []
-tags:
-- name: demouser
-  description: Kavitha
+
