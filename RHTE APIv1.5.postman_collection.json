@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "93c093a4-59c6-4a18-af3e-c2536b3ee335",
-		"name": "RHTE API",
+		"name": "RHTE",
 		"description": "RHTE API v1.5 - An API that gives information about the Red Hat Tech Exchange",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -116,6 +116,28 @@
 				}
 			],
 			"description": "Folder for participants"
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "4a4d9d28-8c4a-4d55-89d6-9c52960baca8",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "09d2daa6-7205-4f2c-a8da-3420e403453c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
 		}
 	]
 }
