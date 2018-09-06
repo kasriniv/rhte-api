@@ -6,8 +6,8 @@
   "scripts": {
     "test": "true"
   },
-  "author": "Nicolas MASSE",
-  "repository": "https://github.com/nmasse-itix/rhte-api.git",
+  "author": "Kavitha",
+  "repository": "https://github.com/kasriniv/rhte-api.git",
   "license": "MIT",
   "dependencies": {
     "express": "latest"
