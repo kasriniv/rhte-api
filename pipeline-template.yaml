@@ -58,4 +58,4 @@ parameters:
 - description: The GIT repository to use.
   displayName: GIT Repo URL
   name: GIT_REPO
-  value: https://github.com/nmasse-itix/rhte-api.git
+  value: https://github.com/kasriniv/rhte-api.git
