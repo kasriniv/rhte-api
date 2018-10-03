@@ -23,7 +23,7 @@ router.get("/timeframe",function(req, res) {
 });
 
 router.get("/participants",function(req, res) {
-  var response = [ "MarkC", "KavithaSv1.5" ];
+  var response = [ "MarkC", "KavithaSnewv1.5" ];
   res.type('application/json')
      .send(JSON.stringify(response))
      .end();
