@@ -3,7 +3,7 @@
 		"_postman_id": "465635e9-c8ae-4c8a-9a08-5cae3f930b10",
 		"name": "RHTE1.0",
 		"description": "version=1.0    RHTE API v1.0 - An API that gives information about the Red Hat Tech Exchange",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
 	},
 	"item": [
 		{
@@ -15,18 +15,7 @@
 						"method": "GET",
 						"header": [],
 						"body": {},
-						"url": {
-							"raw": "http:///location",
-							"host": [
-								"http:"
-							],
-							"port": "",
-							"path": [
-								"",
-								"",
-								"location"
-							]
-						},
+						"url": "http:///location",
 						"description": "Get the location of the next RedHat Tech Exchange"
 					},
 					"response": []
@@ -43,18 +32,7 @@
 						"method": "GET",
 						"header": [],
 						"body": {},
-						"url": {
-							"raw": "http:///timeframe",
-							"host": [
-								"http:"
-							],
-							"port": "",
-							"path": [
-								"",
-								"",
-								"timeframe"
-							]
-						},
+						"url": "http:///timeframe",
 						"description": "Get the timeframe of the next RedHat Tech Exchange"
 					},
 					"response": []
