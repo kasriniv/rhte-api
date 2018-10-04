@@ -1,0 +1,88 @@
+{
+	"info": {
+		"_postman_id": "465635e9-c8ae-4c8a-9a08-5cae3f930b10",
+		"name": "RHTE1.0",
+		"description": "version=1.5    RHTE API v1.5 - An API that gives information about the Red Hat Tech Exchange",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "location",
+			"item": [
+				{
+					"name": "Get Next RHTE Location",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http:///location",
+							"host": [
+								"http:"
+							],
+							"port": "",
+							"path": [
+								"",
+								"",
+								"location"
+							]
+						},
+						"description": "Get the location of the next RedHat Tech Exchange"
+					},
+					"response": []
+				}
+			],
+			"description": "Folder for location"
+		},
+		{
+			"name": "timeframe",
+			"item": [
+				{
+					"name": "Get Next RHTE Timeframe",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {},
+						"url": {
+							"raw": "http:///timeframe",
+							"host": [
+								"http:"
+							],
+							"port": "",
+							"path": [
+								"",
+								"",
+								"timeframe"
+							]
+						},
+						"description": "Get the timeframe of the next RedHat Tech Exchange"
+					},
+					"response": []
+				}
+			],
+			"description": "Folder for timeframe"
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "4a4d9d28-8c4a-4d55-89d6-9c52960baca8",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "09d2daa6-7205-4f2c-a8da-3420e403453c",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
