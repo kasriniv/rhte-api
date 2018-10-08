@@ -21,7 +21,7 @@ node('nodejs') {
       threescale_cicd_api_backend_scheme: "http",
       threescale_cicd_api_base_system_name: "rhte_api",
       threescale_cicd_validate_openapi: false,
-      openapi_file: "openapi1.1rhte.yaml"
+      openapi_file: "openapi2.0rhte.yaml"
   ]
 
   def thisPackage = readJSON file: 'package.json'
