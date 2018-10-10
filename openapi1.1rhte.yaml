@@ -28,7 +28,7 @@ paths:
       description: Get Participants
       operationId: GetParticipants
       responses:
-        200:
+        200: 
           description: Get Participants
 securityDefinitions:
   apikey:
