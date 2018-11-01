@@ -24,12 +24,12 @@ paths:
           description: OK
   /participants:
     get:
-      summary: Get Participants
-      description: Get Participants
-      operationId: GetParticipants
+      summary: GetParticipants
+      description: GetParticipants
+      operationId: GetParticipant
       responses:
         200:
-          description: Get Participants
+          description: GetParticipants ok
 securityDefinitions:
   apikey:
     type: apiKey
