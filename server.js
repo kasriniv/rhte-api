@@ -26,7 +26,7 @@ router.get("/participants",function(req, res) {
   var response = [ "Sam CSX", "Kavitha S 1.1" ];
   res.type('application/json')
      .send(JSON.stringify(response))
-     .end();
+     .end(); 
 });
 
 app.use("/",router);
