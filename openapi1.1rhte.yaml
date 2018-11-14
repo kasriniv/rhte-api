@@ -29,7 +29,7 @@ paths:
       operationId: GetParticipant
       responses:
         200:
-          description: GetParticipants ok
+          description: GetParticipants
 securityDefinitions:
   apikey:
     type: apiKey
