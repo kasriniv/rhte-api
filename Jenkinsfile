@@ -21,7 +21,7 @@ node('nodejs') {
       threescale_cicd_api_backend_scheme: "http",
       threescale_cicd_api_base_system_name: "rhte_api",
       threescale_cicd_validate_openapi: false,
-      openapi_file: "openapi1.0rhte.yaml"
+      openapi_file: "openapi1.1rhte.yaml"
   ]
 
   def thisPackage = readJSON file: 'package.json'
@@ -63,14 +63,14 @@ node('nodejs') {
                  extraVars: JsonOutput.toJson(towerExtraVars)
 
   }
-/*
+
   stage('Run Integration Tests') {
     microcksTest(apiURL: params.MICROCKS_SERVER_URL,
                 serviceId: params.MICROCKS_SERVICE_ID,
                 testEndpoint: params.MICROCKS_TEST_ENDPOINT,
                 runnerType: 'POSTMAN', verbose: 'true')
   }
-*/
+
   stage('Deploy API to prod') {
     // Tag the new build as "ready-for-prod"
     openshiftTag alias: 'false', destStream: params.OPENSHIFT_IMAGE_STREAM, srcTag: "${newVersion}",
